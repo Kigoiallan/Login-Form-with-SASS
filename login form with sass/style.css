@@ -1,0 +1,88 @@
+Body {
+  padding: 30px;
+  background-color: #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+#container {
+  /*allows you to share CSS properties from Body to container
+  (but its optional: compiler may choose  not to consider it) */
+  background-color: darkcyan;
+  width: 80%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+#container #header {
+  width: 100%;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+#container #header small {
+  margin-bottom: 15px;
+  text-align: center;
+  color: #fff;
+  padding-bottom: 10px;
+}
+
+form {
+  width: 100%;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  overflow: hidden;
+}
+form input {
+  margin: 5px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  width: 70%;
+  height: 5vh;
+  background-color: cyan;
+}
+form input::placeholder {
+  padding-left: 5px;
+  color: #000333;
+}
+form input:focus {
+  scale: 1.05;
+  background-color: #fff;
+}
+
+section {
+  width: 100%;
+}
+section button {
+  background-color: cyan;
+  color: rgb(78, 78, 2);
+  border: 1px solid transparent;
+  border-radius: 5px;
+  font-weight: 500;
+}
+section button:hover {
+  scale: 1.05;
+  cursor: pointer;
+}
+section p {
+  color: #fff;
+}
+section a {
+  color: greenyellow;
+}
+section a:hover {
+  color: yellow;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=style.css.map */
